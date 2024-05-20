@@ -7,6 +7,14 @@ d=[2]
 e=[3]
 
 # use these lists to create another list which will look like the list output in line 2
-
+result=[]
+result.append(a)
+result.append(b)
+d.append(e)
+c.append(d)
+result.append(c)
+print(result)
 # use append method to do this.
+if result==output:
+    print("Both are same")
 
